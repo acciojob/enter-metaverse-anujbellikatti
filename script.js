@@ -3,7 +3,7 @@
 function hi(){
 let x = document.getElementById("status");
 	let s =  document.createElement("h1")
-	s.innerHTML = x.innerHTML;
+	s.innerHTML = "Entered Metaverse";
 	x.replaceWith(s);
 	// document.body.appendChild(s);
 	// document.body.removeChild(x);
