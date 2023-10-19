@@ -6,7 +6,7 @@ let x = document.querySelector("#status");
 	s.innerHTML = "Entered Metaverse";
 	s.id = "status"
 	x.replaceWith(s);
-	let a = "have.descendants', 'h1"
+	x.remove();
 	// document.body.appendChild(s);
 	// document.body.removeChild(x);
 }
