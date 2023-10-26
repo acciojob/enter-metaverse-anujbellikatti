@@ -12,7 +12,7 @@
 // }
 
 document.addEventListener("DOMContentLoaded", function () {
-    const statusElement = document.getElementById("status");
+    const statusElement =document.querySelector("#status");
     const enterButton = document.getElementById("enterBtn");
 
     enterButton.addEventListener("click", function () {
